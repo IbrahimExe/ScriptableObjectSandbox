@@ -12,39 +12,40 @@ public class LocEntry
 public enum GameLanguage { English, French, Spanish }
 
 
-[CreateAssetMenu(fileName = "New LanguageData", menuName = "Scriptable Objects/LanguageData")]
-public class LanguageData : ScriptableObject
-{
-    public List<LocEntry> entries = new List<LocEntry>();
-
-    private Dictionary<string, LocEntry> _lookup;
-
-    private void OnEnable() => BuildLookup();
-
-    public void BuildLookup()
+    [CreateAssetMenu(fileName = "New LanguageData", menuName = "Scriptable Objects/LanguageData")]
+    public class LanguageData : ScriptableObject
     {
-        _lookup = new Dictionary<string, LocEntry>();
-        foreach (var entry in entries)
-            if (!string.IsNullOrEmpty(entry.key))
-                _lookup[entry.key] = entry;
-    }
+        public List<LocEntry> entries = new List<LocEntry>();
 
-    // returns the localized string version of the key, eng as default if missing
-    public string GetLocalized(string key, GameLanguage language)
-    {
-        if (_lookup == null) BuildLookup();
+        private Dictionary<string, LocEntry> _lookup;
 
-        if (!_lookup.TryGetValue(key, out LocEntry entry))
+        private void OnEnable() => BuildLookup();
+
+        public void BuildLookup()
         {
-            Debug.LogWarning($"[LanguageData] Missing LocKey: {key}");
-            return $"[MISSING: {key}]";
+            _lookup = new Dictionary<string, LocEntry>();
+            foreach (var entry in entries)
+                if (!string.IsNullOrEmpty(entry.key))
+                    _lookup[entry.key] = entry;
         }
 
-        return language switch
+        // returns the localized string version of the key, eng as default if missing
+        public string GetLocalized(string key, GameLanguage language)
         {
-            GameLanguage.French => entry.fr,
-            GameLanguage.Spanish => entry.sp,
-            _ => entry.en,
-        };
+            if (_lookup == null) BuildLookup();
+
+            if (!_lookup.TryGetValue(key, out LocEntry entry))
+            {
+                Debug.LogWarning($"[LanguageData] Missing LocKey: {key}");
+                return $"[MISSING: {key}]";
+            }
+
+            return language switch
+            {
+                GameLanguage.French => entry.fr,
+                GameLanguage.Spanish => entry.sp,
+                _ => entry.en,
+            };
+        }
     }
 }
