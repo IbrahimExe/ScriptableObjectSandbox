@@ -6,9 +6,9 @@ using System.Collections.Generic;
 public class ShowCardsUI : MonoBehaviour
 {
     [Header("References")]
-    public CardList cardList;               // Assign your CardList SO
+    public CardList cardList;           
     public GameObject cardPrefab;
-    public Transform cardGridParent;        // A GridLayoutGroup parent
+    public Transform cardGridParent;    
     public Button backButton;
     public TextMeshProUGUI titleText;
     public Image background;
