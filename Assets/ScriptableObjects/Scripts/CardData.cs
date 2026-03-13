@@ -18,7 +18,7 @@ public class CardData : ScriptableObject
 }
 public enum CardType
 {
-    Creature,
+    Character,
     Spell,
     Trap,
     Equipment

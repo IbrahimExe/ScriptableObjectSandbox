@@ -15,6 +15,13 @@ public class CardDisplay : MonoBehaviour
     public TextMeshProUGUI descriptionText;
     public Button cardButton;
 
+    [Header("Type Badge")]
+    public Image typeBadgeImage;
+    public Sprite characterBadgeSprite;
+    public Sprite spellBadgeSprite;
+    public Sprite trapBadgeSprite;
+    public Sprite equipmentBadgeSprite;
+
     private CardData _data;
 
     private void OnEnable()
@@ -52,6 +59,7 @@ public class CardDisplay : MonoBehaviour
         costText.text = _data.cost.ToString();
         attackText.text = $"{_data.attack}";
         defenseText.text = $"{_data.defense}";
+        ApplyTypeBadge();
     }
 
     private void ApplyLocalization()
@@ -61,15 +69,30 @@ public class CardDisplay : MonoBehaviour
         descriptionText.text = LocalizationManager.Instance.Get(_data.descriptionLocKey);
     }
 
+    private void ApplyTypeBadge()
+    {
+        if (typeBadgeImage == null) return;
+
+        typeBadgeImage.sprite = _data.type switch
+        {
+            CardType.Character => characterBadgeSprite,
+            CardType.Spell => spellBadgeSprite,
+            CardType.Trap => trapBadgeSprite,
+            CardType.Equipment => equipmentBadgeSprite,
+            _ => null
+        };
+
+        // Hide the badge entirely if no sprite is assigned
+        typeBadgeImage.gameObject.SetActive(typeBadgeImage.sprite != null);
+    }
+
     private void ApplyTheme()
     {
         if (ThemeManager.Instance?.activeTheme == null) return;
         ThemeData theme = ThemeManager.Instance.activeTheme;
 
-        // Card frame color by type
         cardFrameImage.color = theme.GetCardFrameColor(_data.type);
 
-        // Fonts & colors
         nameText.font = theme.specialFont;
         nameText.color = theme.specialFontColor;
         nameText.fontStyle = theme.specialFontStyle;
