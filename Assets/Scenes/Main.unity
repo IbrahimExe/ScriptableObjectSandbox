@@ -265,8 +265,8 @@ GameObject:
   m_Component:
   - component: {fileID: 73698902}
   - component: {fileID: 73698901}
-  - component: {fileID: 73698900}
   - component: {fileID: 73698899}
+  - component: {fileID: 73698900}
   m_Layer: 0
   m_Name: GameManagers
   m_TagString: Untagged
