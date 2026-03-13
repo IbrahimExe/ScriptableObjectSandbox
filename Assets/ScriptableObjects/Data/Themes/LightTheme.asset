@@ -16,7 +16,7 @@ MonoBehaviour:
   regularFontColor: {r: 0, g: 0.12006859, b: 0.1981132, a: 1}
   regularButtonSprite: {fileID: 0}
   specialFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  specialFontColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  specialFontColor: {r: 0.017064003, g: 0, b: 0.49056602, a: 1}
   specialFontStyle: 1
   backgroundColor: {r: 1, g: 0.8678801, b: 0.7122642, a: 1}
   backgroundSprite: {fileID: 0}

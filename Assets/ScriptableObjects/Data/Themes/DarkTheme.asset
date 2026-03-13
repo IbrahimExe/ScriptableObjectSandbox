@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DarkTheme
   m_EditorClassIdentifier: 
   regularFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  regularFontColor: {r: 0.864409, g: 0.9424974, b: 0.990566, a: 1}
+  regularFontColor: {r: 0.2042542, g: 0.25199038, b: 0.2830189, a: 1}
   regularButtonSprite: {fileID: 0}
   specialFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   specialFontColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

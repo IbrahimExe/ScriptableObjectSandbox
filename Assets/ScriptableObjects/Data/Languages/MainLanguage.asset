@@ -61,7 +61,3 @@ MonoBehaviour:
     en: Quit
     fr: Quitter
     sp: Salir
-  - key: UI_SHOWCARDS
-    en: Back
-    fr: Retour
-    sp: "Atr\xE1s"
