@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1156c4de08b604f9df0646be89810e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  languageData: {fileID: 0}
+  languageData: {fileID: 11400000, guid: 3a2171772ba1e5a41952b600c6ba0861, type: 2}
   currentLanguage: 0
 --- !u!114 &73698900
 MonoBehaviour:
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b0833c997adfe4abba1b80164b312a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeTheme: {fileID: 0}
+  activeTheme: {fileID: 11400000, guid: 8aacc6195c2b4dd4c8d2a08125aec057, type: 2}
 --- !u!114 &73698901
 MonoBehaviour:
   m_ObjectHideFlags: 0

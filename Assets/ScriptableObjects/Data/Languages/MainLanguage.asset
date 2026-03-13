@@ -13,19 +13,55 @@ MonoBehaviour:
   m_Name: MainLanguage
   m_EditorClassIdentifier: Assembly-CSharp::LocEntry/LanguageData
   entries:
-  - key: 
-    en: 
-    fr: 
-    sp: 
-  - key: 
-    en: 
-    fr: 
-    sp: 
-  - key: 
-    en: 
-    fr: 
-    sp: 
-  - key: 
-    en: 
-    fr: 
-    sp: 
+  - key: CARD_ARMOUR_NAME
+    en: Armour
+    fr: Armure
+    sp: Armadura
+  - key: CARD_BANANA_NAME
+    en: Banana Peel
+    fr: "Peau de Banane\r"
+    sp: "C\xE1scara de Banana"
+  - key: CARD_BEN_NAME
+    en: Ben
+    fr: '[FR] Ben'
+    sp: '[SP] Ben'
+  - key: CARD_FIREBALL_NAME
+    en: Fireball
+    fr: Boule de Feu
+    sp: "Bola de Fuego\r"
+  - key: CARD_GUS_NAME
+    en: Gus
+    fr: '[FR] Gus'
+    sp: '[SP] Gus'
+  - key: CARD_IBI_NAME
+    en: Ibi
+    fr: '[FR] Ibi'
+    sp: '[SP] Ibi'
+  - key: CARD_PISTOL_NAME
+    en: Pistol
+    fr: "Pistolet\r"
+    sp: Pistola
+  - key: CARD_PROTECTION_NAME
+    en: Protection
+    fr: '[FR] Protection'
+    sp: "Protecci\xF3n"
+  - key: CARD_SPIKES_NAME
+    en: Spikes
+    fr: Piques
+    sp: Pinchos
+  - key: UI_PLAY
+    en: Play
+    fr: Jouer
+    sp: Jugar
+  - key: UI_SHOWCARDS
+    en: Show Cards
+    fr: "Afficher les Cartes\r"
+    sp: Mostrar las Cartas
+  - key: UI_QUIT
+    en: Quit
+    fr: Quitter
+    sp: Salir
+  - key: UI_SHOWCARDS
+    en: Back
+    fr: Retour
+    sp: "Atr\xE1s"

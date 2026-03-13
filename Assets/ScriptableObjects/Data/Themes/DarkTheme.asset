@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3945f952a7ded941b8f6a0975c015df, type: 3}
+  m_Name: DarkTheme
+  m_EditorClassIdentifier: 
+  regularFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  regularFontColor: {r: 0.864409, g: 0.9424974, b: 0.990566, a: 1}
+  regularButtonSprite: {fileID: 0}
+  specialFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  specialFontColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  specialFontStyle: 1
+  backgroundColor: {r: 0.08, g: 0.08, b: 0.15, a: 1}
+  backgroundSprite: {fileID: 0}
+  creatureFrameColor: {r: 0, g: 1, b: 0, a: 1}
+  spellFrameColor: {r: 0, g: 1, b: 1, a: 1}
+  trapFrameColor: {r: 1, g: 0, b: 0, a: 1}
+  equipmentFrameColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
