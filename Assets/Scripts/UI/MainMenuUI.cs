@@ -24,8 +24,8 @@ public class MainMenuUI : MonoBehaviour
 
     private void Start()
     {
-        playButton.onClick.AddListener(() => GameManager.Instance.LoadScene("PlayScreen"));
-        showCardsButton.onClick.AddListener(() => GameManager.Instance.LoadScene("ShowCards"));
+        playButton.onClick.AddListener(() => GameManager.Instance.LoadScene("Play"));
+        showCardsButton.onClick.AddListener(() => GameManager.Instance.LoadScene("Card"));
         quitButton.onClick.AddListener(() => GameManager.Instance.Quit());
 
         btnEnglish?.onClick.AddListener(() => LocalizationManager.Instance.SetLanguage(GameLanguage.English));

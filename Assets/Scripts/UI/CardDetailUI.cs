@@ -12,7 +12,7 @@ public class CardDetailUI : MonoBehaviour
 
     private void Start()
     {
-        backButton.onClick.AddListener(() => GameManager.Instance.LoadScene("ShowCards"));
+        backButton.onClick.AddListener(() => GameManager.Instance.LoadScene("Card"));
 
         CardData selected = GameManager.SelectedCard;
 

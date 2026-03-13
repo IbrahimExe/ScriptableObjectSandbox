@@ -17,7 +17,7 @@ public class ShowCardsUI : MonoBehaviour
 
     private void Start()
     {
-        backButton.onClick.AddListener(() => GameManager.Instance.LoadScene("MainMenu"));
+        backButton.onClick.AddListener(() => GameManager.Instance.LoadScene("Main"));
 
         ApplyTheme();
         SpawnCards();

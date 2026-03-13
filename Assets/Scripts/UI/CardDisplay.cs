@@ -50,8 +50,8 @@ public class CardDisplay : MonoBehaviour
         if (_data == null) return;
         cardImage.sprite = _data.cardImage;
         costText.text = _data.cost.ToString();
-        attackText.text = $"⚔ {_data.attack}";
-        defenseText.text = $"🛡 {_data.defense}";
+        attackText.text = $"{_data.attack}";
+        defenseText.text = $"{_data.defense}";
     }
 
     private void ApplyLocalization()

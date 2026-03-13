@@ -31,7 +31,7 @@ public class DVD : MonoBehaviour
         // random start direction
         direction = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
 
-        backButton.onClick.AddListener(() => GameManager.Instance.LoadScene("MainMenu"));
+        backButton.onClick.AddListener(() => GameManager.Instance.LoadScene("Main"));
 
         ApplyTheme();
     }

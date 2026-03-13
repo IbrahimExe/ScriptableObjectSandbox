@@ -4,8 +4,6 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "New CardList", menuName = "Scriptable Objects/CardList")]
 public class CardList : ScriptableObject
 {
-    [Header("Resource paths relative to Resources/")]
-    [Tooltip("E.g. 'Cards/Fireball' loads Resources/Cards/Fireball.asset")]
     public List<string> cardResourcePaths = new List<string>();
 
     // method of loading where cards are loaded once and stored here
