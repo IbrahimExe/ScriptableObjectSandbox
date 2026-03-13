@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: aaea9c3898523a8439dbf4b1d8e4b09d, type: 3}
   m_Name: MainLanguage
-  m_EditorClassIdentifier: Assembly-CSharp::LocEntry/LanguageData
+  m_EditorClassIdentifier: 
   entries:
   - key: CARD_ARMOUR_NAME
     en: Armour
@@ -23,143 +23,114 @@ MonoBehaviour:
     sp: "\xA1Obt\xE9n protecci\xF3n adicional contra los ataques!"
   - key: CARD_BANANA_NAME
     en: Banana Peel
-    fr: "Peau de Banane\r"
+    fr: Peau de Banane
     sp: "C\xE1scara de Banana"
   - key: CARD_BANANA_DESC
-    en: '*SLLLLLLIIIIIIIIIPPPPPP*
-
-
-      Who left this here?!'
+    en: '*SLLLLLLIIIIIIIIIPPPPPP* Who left this here?!'
     fr: "*SLLLLLLIIIIIIIIIPPPPPP*\n\nQui a laiss\xE9 \xE7a ici ?!"
     sp: "*SLLLLLLIIIIIIIIIPPPPPP*\n\n\xBFQui\xE9n dej\xF3 esto aqu\xED?!"
   - key: CARD_BEN_NAME
     en: Ben
     fr: '[FR] Ben'
     sp: '[SP] Ben'
+  - key: CARD_BEN_DESC
+    en: "Ben is overpowered; there\u2019s no stopping him, I\u2019m afraid."
+    fr: "Ben est surpuissant ; on ne peut absolument pas l\u2019arr\xEAter, j\u2019en
+      ai bien peur."
+    sp: "Ben est\xE1 demasiado poderoso; me temo que no hay manera de detenerlo."
   - key: CARD_FIREBALL_NAME
     en: Fireball
     fr: Boule de Feu
-    sp: "Bola de Fuego\r"
+    sp: Bola de Fuego
   - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL" - Pitbull'
+    fr: '"BOULE DE FEU" - Mousier Pitbull'
+    sp: '"BOLA DE FUEGO" - El Pitbull'
   - key: CARD_GUS_NAME
     en: Gus
     fr: '[FR] Gus'
     sp: '[SP] Gus'
+  - key: CARD_GUS_DESC
+    en: "Gus is pregnant and can literally spawn minions to do his bidding.\r\nHow
+      many he produces is up to chance - will he be a single father? Twins? Triplets?
+      Quadruplets?\r"
+    fr: "Gus est enceinte et peut litt\xE9ralement cr\xE9er des sbires pour accomplir
+      ses ordres.\r\nLe nombre d\xE9pend du hasard - sera-t-il p\xE8re d\u2019un
+      seul enfant ? De jumeaux ? De tripl\xE9s ? De quadrupl\xE9s ?\r\n"
+    sp: "Gus est\xE1 embarazado y puede literalmente generar esbirros para que hagan
+      lo que \xE9l veut.\r\nCu\xE1ntos aparezcan depende del azar \u2014 \xBFser\xE1
+      padre soltero? \xBFGemelos? \xBFTrillizos? \xBFCuatrillizos?\r"
   - key: CARD_IBI_NAME
     en: Ibi
     fr: '[FR] Ibi'
     sp: '[SP] Ibi'
+  - key: CARD_IBI_DESC
+    en: "As the creator of this project, Ibi has transcended beyond fourth-wall-breaking
+      jokes, since they aren\u2019t cool anymore. Instead, he now lives on a farm
+      off the shore of Vancouver."
+    fr: "En tant que cr\xE9ateur de ce projet, Ibi a transcend\xE9 les blagues qui
+      brisent le quatri\xE8me mur, car elles ne sont plus \xE0 la mode. Il vit d\xE9sormais
+      dans une ferme au large de Vancouver."
+    sp: "Como creador de este proyecto, Ibi ha trascendido m\xE1s all\xE1 de los
+      chistes que rompen la cuarta pared, ya que ya no son cool. Ahora vive en una
+      granja frente a la costa de Vancouver."
   - key: CARD_PISTOL_NAME
     en: Pistol
-    fr: "Pistolet\r"
+    fr: Pistolet
     sp: Pistola
+  - key: CARD_PISTOL_DESC
+    en: "A gun, Americans would be familiar.\nIt deals long\u2011range damage while
+      still packing a punch, perfect for when regular old bows and arrows feel too
+      old\u2011school."
+    fr: "Une arme \xE0 feu \u2014 quelque chose de familier pour les Am\xE9ricains.\r\nElle
+      inflige des d\xE9g\xE2ts \xE0 longue port\xE9e tout en restant tr\xE8s puissante,
+      parfaite lorsque l\u2019arc et les fl\xE8ches paraissent trop archa\xEFques.\r"
+    sp: "Un arma de fuego \u2014 algo con lo que los estadounidenses est\xE1n familiarizados.\r\nCausa
+      da\xF1o a larga distancia y sigue golpeando con fuerza, ideal cuando el arco
+      y las flechas se sienten demasiado anticuados.\r"
   - key: CARD_PROTECTION_NAME
     en: Protection
     fr: '[FR] Protection'
     sp: "Protecci\xF3n"
+  - key: CARD_PROTECTION_DESC
+    en: Unlike a traditional shield, this spell has a large area of effect that can
+      protect one hero or an entire group of heroes or villains too!
+    fr: "Contrairement \xE0 un bouclier traditionnel, ce sort poss\xE8de une large
+      zone d\u2019effet qui peut prot\xE9ger un seul h\xE9ros ou tout un groupe de
+      h\xE9ros ou de m\xE9chants."
+    sp: "A diferencia de un escudo tradicional, este hechizo tiene un \xE1rea de
+      efecto amplia que puede proteger a un solo h\xE9roe o a un grupo entero de
+      h\xE9roes o villanos."
   - key: CARD_SPIKES_NAME
     en: Spikes
     fr: Piques
     sp: Pinchos
+  - key: CARD_SPIKES_DESC
+    en: "A spike trap.\r\nHonestly, I was trying to come up with a trap idea, and
+      the only thing that came to mind was the spike traps from Fortnite \u2014 and
+      trust me, I\u2019m just as ashamed as you are embarrassed for me.\r\nAnyway,
+      this thing can one\u2011shot unsuspecting passersby. It\u2019s really strong
+      when placed tactically and not unfair at all!\r"
+    fr: "Un pi\xE8ge \xE0 pointes.\r\nHonn\xEAtement, j\u2019essayais d\u2019imaginer
+      un pi\xE8ge et tout ce qui m\u2019est venu \xE0 l\u2019esprit, ce sont les
+      pi\xE8ges \xE0 pointes de Fortnite \u2014 et croyez-moi, j\u2019en ai aussi
+      honte que vous \xEAtes g\xEAn\xE9 pour moi.\r\nQuoi qu\u2019il en soit, ce
+      truc peut \xE9liminer instantan\xE9ment les passants inattentifs. Tr\xE8s puissant
+      lorsqu\u2019il est plac\xE9 strat\xE9giquement, et absolument pas injuste !\r"
+    sp: "Una trampa de pinchos.\r\nSinceramente, intentaba inventar una trampa y
+      lo \xFAnico que se me ocurri\xF3 fueron las trampas de pinchos de Fortnite
+      \u2014 y cr\xE9eme, estoy tan avergonzado como t\xFA est\xE1s inc\xF3modo por
+      m\xED.\r\nEn fin, este artefacto puede eliminar de un golpe a cualquier despistado.
+      Muy fuerte si se coloca t\xE1cticamente, y para nada injusto.\r"
   - key: UI_PLAY
     en: Play
     fr: Jouer
     sp: Jugar
   - key: UI_SHOWCARDS
     en: Show Cards
-    fr: "Afficher les Cartes\r"
+    fr: Afficher les Cartes
     sp: Mostrar las Cartas
   - key: UI_QUIT
     en: Quit
     fr: Quitter
     sp: Salir
-  - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
-  - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
-  - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
-  - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
-  - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
-  - key: CARD_FIREBALL_DESC
-    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
-
-
-      - Pitbull'
-    fr: 'Fuego Ball
-
-
-      - Pitbull'
-    sp: 'Fireball
-
-
-      = El Pitbull'
