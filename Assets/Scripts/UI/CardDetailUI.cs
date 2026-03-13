@@ -5,7 +5,8 @@ using TMPro;
 public class CardDetailUI : MonoBehaviour
 {
     [Header("References")]
-    public CardDisplay cardDisplay;     
+    public GameObject largeCardPrefab;
+    public Transform cardSpawnParent;
     public Button backButton;
     public Image background;
     public TextMeshProUGUI typeText;
@@ -18,24 +19,45 @@ public class CardDetailUI : MonoBehaviour
 
         if (selected != null)
         {
-            cardDisplay.Initialize(selected);
-            typeText.text = $"Type: {selected.type}";
-            StartCoroutine(cardDisplay.PlayFlipAnimation());
+            GameObject go = Instantiate(largeCardPrefab, cardSpawnParent);
+
+            RectTransform rt = go.GetComponent<RectTransform>();
+            rt.anchoredPosition = Vector2.zero;
+            rt.localScale = Vector3.one;
+
+            CardDisplay display = go.GetComponent<CardDisplay>();
+
+            if (display != null)
+            {
+                display.Initialize(selected);
+                typeText.text = $"Type: {selected.type}";
+                StartCoroutine(display.PlayFlipAnimation());
+            }
+            else
+            {
+                Debug.LogError("[CardDetail] CardDisplay component missing from largeCardPrefab root!");
+            }
         }
         else
         {
-            Debug.LogWarning("[CardDetailUI] No card selected!");
+            Debug.LogWarning("[CardDetail] No card selected — GameManager.SelectedCard is null!");
         }
 
         ApplyTheme();
-        ThemeManager.Instance.OnThemeChanged += ApplyTheme;
+
+        if (ThemeManager.Instance != null)
+            ThemeManager.Instance.OnThemeChanged += ApplyTheme;
     }
 
-    private void OnDestroy() =>
-        ThemeManager.Instance.OnThemeChanged -= ApplyTheme;
+    private void OnDestroy()
+    {
+        if (ThemeManager.Instance != null)
+            ThemeManager.Instance.OnThemeChanged -= ApplyTheme;
+    }
 
     private void ApplyTheme()
     {
+        if (ThemeManager.Instance?.activeTheme == null) return;
         background.color = ThemeManager.Instance.activeTheme.backgroundColor;
         typeText.font = ThemeManager.Instance.activeTheme.regularFont;
         typeText.color = ThemeManager.Instance.activeTheme.regularFontColor;

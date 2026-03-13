@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff379b1dc7fc1a47bea3d93f8c14564, type: 3}
   m_Name: Fireball
   m_EditorClassIdentifier: 
-  nameLocKey: CARD_FIRE_NAME
-  descriptionLocKey: CARD_FIRE_DESC
+  nameLocKey: CARD_FIREBALL_NAME
+  descriptionLocKey: CARD_FIREBALL_DESC
   type: 1
   cost: 3
   attack: 6

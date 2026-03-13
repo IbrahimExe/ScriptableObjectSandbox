@@ -17,10 +17,21 @@ MonoBehaviour:
     en: Armour
     fr: Armure
     sp: Armadura
+  - key: CARD_ARMOUR_DESC
+    en: Gain extra protection from attacks!
+    fr: "Obtenez une protection suppl\xE9mentaire contre les attaques !"
+    sp: "\xA1Obt\xE9n protecci\xF3n adicional contra los ataques!"
   - key: CARD_BANANA_NAME
     en: Banana Peel
     fr: "Peau de Banane\r"
     sp: "C\xE1scara de Banana"
+  - key: CARD_BANANA_DESC
+    en: '*SLLLLLLIIIIIIIIIPPPPPP*
+
+
+      Who left this here?!'
+    fr: "*SLLLLLLIIIIIIIIIPPPPPP*\n\nQui a laiss\xE9 \xE7a ici ?!"
+    sp: "*SLLLLLLIIIIIIIIIPPPPPP*\n\n\xBFQui\xE9n dej\xF3 esto aqu\xED?!"
   - key: CARD_BEN_NAME
     en: Ben
     fr: '[FR] Ben'
@@ -29,6 +40,19 @@ MonoBehaviour:
     en: Fireball
     fr: Boule de Feu
     sp: "Bola de Fuego\r"
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
   - key: CARD_GUS_NAME
     en: Gus
     fr: '[FR] Gus'
@@ -61,3 +85,81 @@ MonoBehaviour:
     en: Quit
     fr: Quitter
     sp: Salir
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
+  - key: CARD_FIREBALL_DESC
+    en: '"FIIIIIIIIIIREEEEEEEEEEEEE BAAAAAAAALLLLLLLLL"
+
+
+      - Pitbull'
+    fr: 'Fuego Ball
+
+
+      - Pitbull'
+    sp: 'Fireball
+
+
+      = El Pitbull'
