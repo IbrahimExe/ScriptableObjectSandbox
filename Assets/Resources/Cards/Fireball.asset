@@ -18,4 +18,4 @@ MonoBehaviour:
   cost: 3
   attack: 6
   defense: 0
-  cardImage: {fileID: 0}
+  cardImage: {fileID: -6607481912129624618, guid: 4f98db6d852f1fe49a1e8adfb3d87e60, type: 3}
