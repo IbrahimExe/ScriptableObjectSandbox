@@ -2,6 +2,9 @@
 using UnityEngine.UI;
 using TMPro;
 
+// The script that controls the amazing DVD inspired bouncing text easter egg in the main menu.
+// If you ever read this, tell me how many times you saw it hit the corner,
+// I want to know if anyone actually found it :D
 public class DVD : MonoBehaviour
 {
     [Header("Text")]
