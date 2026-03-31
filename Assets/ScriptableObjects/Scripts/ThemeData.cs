@@ -2,6 +2,10 @@ using UnityEngine;
 using TMPro;
 
 [CreateAssetMenu(fileName = "New ThemeData", menuName = "Scriptable Objects/ThemeData")]
+
+// This ScriptableObject holds all the theme related data for the UI,
+// such as fonts, colors, and sprites.
+// It allows for easy switching of themes at runtime by referencing different ThemeData assets.
 public class ThemeData : ScriptableObject
 {
     [Header("Regular Style")]
